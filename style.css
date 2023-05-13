@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: "Vietnam";
+}
+
+@font-face {
+    font-family: "Vietnam";
+    src: url(font/);
+}
+
+.body2 {
+    margin: auto;
+    max-width: 90%;
+}
+
+header {
+    background-color: rgb(255, 222, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+#panino-img {
+    max-width: 6%;
+}
+
+.intestazione {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+}
+
+#int{
+    color: black;
+    font-size: 180px;
+    transform: rotate(100);
+}
+
+#inviaggio {
+    color: blueviolet;
+}
+
+#sagoma1 {
+    max-width: 40%;
+    padding-right: 15%;
+}
+
+#interrogativo {
+    color: blueviolet;
+    font-size: 100px;
+}
+
+#panino {
+    color: coral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+    font-size: 50px;
+}
+
+.intro2 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.boxcard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 217, 119, 0.51);
+    border-radius: 50px;
+    margin-bottom: 10%;
+}
+
+
+.card {
+    flex-direction: column;
+    padding: 40px;
+    width: 600px;
+
+}
+
+.cardp {
+    font-size: 40px;
+    margin: 0;
+    color: black;
+}
+
+.title {
+    font-size: 48px;
+    margin: 0;
+    color: blueviolet;
+}
+
+.cardimage {
+    border-radius: 50px;
+    width: 700px;
+    height: 500px;
+}
+
+#sagoma2 {
+    max-width: 30%;
+    padding-right: 15%;
+    padding-top: 100px;
+}
+
+.sagoma2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#buonacolazione {
+    color: blueviolet;
+}
+
+.footer-1{
+    display:flex ;
+    font-size: 32px;
+}
+
+.footer-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 24px;
+}
+
+#loghetti{
+    max-width: 15%;
+}
